@@ -5,11 +5,11 @@ var randomNumber2 = Math.floor((Math.random()*6)+1) ;
 
 var imageElement1=document.querySelector(".img1"); 
 
-imageElement1.setAttribute("src","images/"+imagesArray[randomNumber1]);
+imageElement1.setAttribute("src","./images/"+imagesArray[randomNumber1]);
 
 var imageElement2=document.querySelector(".img2"); 
 
-imageElement2.setAttribute("src","images/"+imagesArray[randomNumber2]);
+imageElement2.setAttribute("src","./images/"+imagesArray[randomNumber2]);
 
 function diceRoll(){ 
 if(randomNumber1>randomNumber2){
